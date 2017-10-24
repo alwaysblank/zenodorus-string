@@ -14,7 +14,9 @@
             "email": "ben@alwaysblank.org"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7"
+    },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.1",
         "zenodorus/standards": "dev-master",
