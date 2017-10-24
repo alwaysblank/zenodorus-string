@@ -1,6 +1,6 @@
 **zenodor.us 🔩**
 
-# String
+# Strings
 
 Methods for messing with strings.
 
