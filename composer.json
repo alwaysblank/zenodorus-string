@@ -1,6 +1,7 @@
 {
     "name": "zenodorus/strings",
     "description": "Tools for messing with strings.",
+    "homepage": "https://zenodor.us",
     "repositories": {
         "zenodorus/standards": {
             "type": "vcs",
@@ -11,7 +12,8 @@
     "authors": [
         {
             "name": "Ben Martinez-Bateman",
-            "email": "ben@alwaysblank.org"
+            "email": "ben@alwaysblank.org",
+            "homepage": "https://alwaysblank.org"
         }
     ],
     "require": {
