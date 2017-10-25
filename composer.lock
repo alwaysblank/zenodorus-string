@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "69a0ee76611ba376cf3c21050f07e699",
+    "content-hash": "d11b22e77cb55e9ddaec46336b6f6a36",
     "packages": [],
     "packages-dev": [
         {
@@ -1511,20 +1511,25 @@
             "time": "2016-11-23T20:04:58+00:00"
         },
         {
-            "name": "zenodorus/standards",
+            "name": "zenodorus/core",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/alwaysblank/zenodorus-standards.git",
-                "reference": "080d28adb756452ff1a767533f49210c82257a80"
+                "url": "https://github.com/alwaysblank/zenodorus.git",
+                "reference": "009e5443ea61c4b606ac6c8100f127167c157503"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alwaysblank/zenodorus-standards/zipball/080d28adb756452ff1a767533f49210c82257a80",
-                "reference": "080d28adb756452ff1a767533f49210c82257a80",
+                "url": "https://api.github.com/repos/alwaysblank/zenodorus/zipball/009e5443ea61c4b606ac6c8100f127167c157503",
+                "reference": "009e5443ea61c4b606ac6c8100f127167c157503",
                 "shasum": ""
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zenodorus\\": "src"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -1534,21 +1539,23 @@
                     "email": "ben@alwaysblank.org"
                 }
             ],
-            "description": "Coding standards for Zenodorus tools.",
+            "description": "A collection of all the Zenodorus utilities.",
             "support": {
-                "source": "https://github.com/alwaysblank/zenodorus-standards/tree/master",
-                "issues": "https://github.com/alwaysblank/zenodorus-standards/issues"
+                "source": "https://github.com/alwaysblank/zenodorus/tree/master",
+                "issues": "https://github.com/alwaysblank/zenodorus/issues"
             },
-            "time": "2017-10-24T20:00:18+00:00"
+            "time": "2017-10-25T16:45:23+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "zenodorus/standards": 20
+        "zenodorus/core": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7"
+    },
     "platform-dev": []
 }
