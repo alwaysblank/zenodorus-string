@@ -5,7 +5,7 @@
     "repositories": {
         "zenodorus/core": {
             "type": "vcs",
-            "url": "git@github.com:alwaysblank/zenodorus.git"
+            "url": "git@github.com:zenodorus-tools/core.git"
         }
     },
     "license": "MIT",
