@@ -17,13 +17,9 @@ class StringTest extends TestCase
     public function testSafeBad()
     {
         $bad_string = 'a bad string @';
+        $bad_string2 = '$$%@lkamns';
         $this->assertFalse(Strings::safe($bad_string));
-    }
-
-    public function testSafeBad2()
-    {
-        $bad_string = '$$%@lkamns';
-        $this->assertFalse(Strings::safe($bad_string));
+        $this->assertFalse(Strings::safe($bad_string2));
     }
 
     /**
