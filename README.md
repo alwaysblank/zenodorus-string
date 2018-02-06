@@ -2,7 +2,7 @@
 
 # Strings
 
-[![Build Status](https://travis-ci.org/zenodorus-tools/zenodorus-strings.svg?branch=master)](https://travis-ci.org/zenodorus-tools/zenodorus-strings)
+[![Build Status](https://travis-ci.org/zenodorus-tools/strings.svg?branch=master)](https://travis-ci.org/zenodorus-tools/strings)
 
 Methods for messing with strings.
 
